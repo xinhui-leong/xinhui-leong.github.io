@@ -1,0 +1,219 @@
+body, a {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+	/* background-image: url("sticky.jpg"); */
+	/* background-color: #5f6670; */
+	background-color: #454545;
+	background-size: cover;
+	/* color: #135894; */
+	/* color: #545454 */
+	color: #01295c;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+}
+
+.row {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.p-no-margin {
+	margin: 0;
+}
+
+.p-gray {
+	color: #434343
+}
+
+
+ul { 
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	text-indent:-25px; 
+	margin-left: 25px;
+} /* Remove default bullets */
+
+
+.mainlist li::before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f35a";
+    color: black;
+	
+    margin-right: 10px; /* Optional tweak */
+}
+
+.sublist li::before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f45c";
+	color: black;
+	font-size: 0.85rem;
+	
+    margin-right: 10px; /* Optional tweak */
+}
+
+.sublist {
+	font-size: 0.85rem;
+}
+
+.about-me-section {
+	/* background-image: url("sticky.jpg"); */
+	/* background-color: #5f6670; */
+	background-color: #454545;
+	background-size: cover;
+	/* color: #135894; */
+	/* color: #545454 */
+	color: #01295c;
+	margin-top: 7%;
+}
+
+.full-nav {
+	padding: 2.5% 0 2.5% 0;
+}
+
+.full-navbar {
+	background-color: #454545 !important;
+	margin: 0;
+	padding: 2.5% 5% 2.5% 5%
+}
+
+.full-navbar h3, .full-navbar h5{
+	color: white;
+}
+
+.navbar-nav {
+	width:100%;
+	justify-content: flex-end;
+}
+
+#navbarNavAltMarkup {
+	justify-content: center;
+}
+
+.info-card {
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 2.5% 2.5% 2.5% 2.5%;
+	margin-bottom: 5%
+}
+
+.skill-card-header {
+	padding-bottom: 2.5%
+}
+
+.image-profile {
+	border-radius: 50%;
+	width: 30vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-holder {
+	position:relative;
+	padding: 0 2.5% 0 0;
+}
+
+.profile-info {
+	text-align: center;
+	position: absolute;
+  	top: 50%;
+	transform: translateY(-50%);
+	padding: 0;
+
+}
+
+.about-name {
+	margin-top: 2.5vh;
+}
+
+.about-quote {
+	font-size: 0.75rem;
+	font-style: italic;
+	margin-top: 1vh;
+	color: #434343;
+}
+
+.profile-about {
+	min-height: 100%;
+	border-left-style: solid;
+	border-left-width: medium;
+	border-left-color: black;
+	padding: 0 0 0 2.5%;
+}
+
+.skill-list {
+	color: #01295c;
+	width: 30%;
+}
+
+.skill-nontech {
+	margin-bottom: 2.5%;
+}
+
+.skill-tech {
+	border-top-style: solid;
+	border-top-width: medium;
+	border-top-color: black;
+	padding: 2.5% 0 0 0;
+}
+
+.tech-list {
+	color: #01295c;
+	width: 15%;
+}
+
+.job-card {
+	background-color: white;
+	box-shadow: 0 4px 8px 0 #454545, 0 6px 20px 0 #454545;
+	padding: 2.5% 2.5% 2.5% 2.5%;
+	margin-bottom: 2.5%;
+}
+
+.job-skills-list {
+	font-size: 0.85rem;
+	color: black;
+}
+
+.job-btn-area {
+	position: relative;
+}
+
+.job-btn-img {
+	position: absolute;
+	right: 2.5%;
+	bottom: 2.5%;
+}
+
+@media only screen and (max-width: 767px) {
+	.about-me-section {
+		margin-top: 15%;
+	}
+	
+	.profile-about {
+		border: none;
+	}
+
+	.profile-info {
+		position: static;
+		transform: none;
+		padding: 0;
+	}
+/* 
+	.full-navbar {
+		position: sticky;
+	} */
+
+	.skill-label, .tech-label {
+		font-size: 11px;
+	}
+	
+	.skill-image, .tech-image {
+		max-height: 50px;
+	}
+
+}
