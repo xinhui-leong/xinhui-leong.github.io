@@ -83,7 +83,7 @@ ul {
 	padding: 2.5% 5% 2.5% 5%
 }
 
-.full-navbar h3, .full-navbar h5{
+.full-navbar h4, .full-navbar h5{
 	color: white;
 }
 
@@ -110,7 +110,9 @@ ul {
 .image-profile {
 	border-radius: 50%;
 	width: 30vh;
+	height: auto;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	align-self: flex-start;
 }
 
 .profile-holder {
@@ -189,6 +191,10 @@ ul {
 	bottom: 2.5%;
 }
 
+.project-title {
+	font-size: 1.0rem;
+}
+
 @media only screen and (max-width: 767px) {
 	.about-me-section {
 		margin-top: 15%;
@@ -214,6 +220,10 @@ ul {
 	
 	.skill-image, .tech-image {
 		max-height: 50px;
+	}
+
+	.job-date, .project-title {
+		font-size: 0.85rem;
 	}
 
 }
