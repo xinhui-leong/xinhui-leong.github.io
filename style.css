@@ -83,7 +83,7 @@ ul {
 	padding: 2.5% 5% 2.5% 5%
 }
 
-.full-navbar h4, .full-navbar h5{
+.full-navbar h4, .full-navbar h6, .full-navbar h5{
 	color: white;
 }
 
@@ -168,6 +168,10 @@ ul {
 	color: #01295c;
 	width: 15%;
 }
+
+.skill-image, .tech-image {
+		max-height: 100px;
+	}
 
 .job-card {
 	background-color: white;
