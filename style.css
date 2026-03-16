@@ -195,14 +195,6 @@ ul {
 	bottom: 2.5%;
 }
 
-.project-header {
-	cursor: pointer;
-}
-
-.job-card[data-toggle="collapse"] {
-	cursor: pointer;
-}
-
 .project-title {
 	font-size: 1.0rem;
 }
